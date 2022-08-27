@@ -10,4 +10,3 @@ RUN hugo -D --minify
 
 FROM nginx:alpine
 COPY --from=build /data/public /usr/share/nginx/html
-Footer
