@@ -16,4 +16,4 @@ RUN hugo -D --minify
 # Expose the site using NGINX
 
 FROM nginx:alpine
-COPY --from=build /data/public /var/www/html
+COPY --from=build /data/public /usr/share/nginx/html
