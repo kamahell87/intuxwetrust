@@ -3,7 +3,7 @@
 FROM klakegg/hugo AS build
 COPY . /data
 WORKDIR /data
-RUN hugo -D --minify
+RUN hugo -D
 
 
 # Expose the site using NGINX
