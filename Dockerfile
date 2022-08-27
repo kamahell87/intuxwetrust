@@ -1,7 +1,7 @@
 # Building the site with Hugo
 
 FROM klakegg/hugo AS build
-COPY --from=0 /data /data
+COPY . /data
 WORKDIR /data
 RUN hugo -D --minify
 
