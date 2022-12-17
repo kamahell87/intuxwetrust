@@ -8,7 +8,7 @@ RUN git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
 
 # Building the site with Hugo
 
-FROM klakegg/hugo:0.101.0 AS build
+FROM klakegg/hugo:0.107.0 AS build
 COPY --from=clone /data /data
 WORKDIR /data
 RUN hugo -D --minify
