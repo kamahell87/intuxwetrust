@@ -11,7 +11,7 @@ RUN git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
 FROM klakegg/hugo:0.107.0 AS build
 COPY --from=clone /data /data
 WORKDIR /data
-RUN hugo -D --minify
+RUN hugo -D
 
 # Expose the site using NGINX
 
