@@ -3,8 +3,6 @@ title = "Just Welcome!"
 date = "2023-06-11T09:00:00+01:00"
 author = "Alaric Saintfine"
 authorTwitter = "" #do not include @
-tags = ["blog", "linux", "enthusiast", "humor"]
-keywords = ["blog", "linux", "enthusiast", "humor"]
 showFullContent = false
 hideComments = true
 +++
