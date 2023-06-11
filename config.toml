@@ -95,8 +95,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "Tutorials"
         name = "Tutorials"
-# Change it to the tutorial folder once ready.
-        url = "/comingsoon/"
+        url = "/comingsoon/" # temp "work in progress" page
         weight = 30
 
       [[languages.en.menu.main]]
