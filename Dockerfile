@@ -4,7 +4,7 @@ FROM alpine/git AS clone
 COPY . /data
 WORKDIR /data
 RUN rm -rf themes/*
-RUN git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
+RUN git clone https://github.com/kamahell87/hugo-theme-terminal.git themes/terminal
 
 # Building the site with Hugo
 
